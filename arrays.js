@@ -79,7 +79,8 @@ function insertItemAtBeginning(groceries, item) {
 function replaceFirstTwoItems(groceries) {
   
   groceries.splice(0, 2, 'ketchup', 'chili');
-
+ 
+  
   return groceries;
 }
 
